@@ -17,7 +17,9 @@ manifest:
       revision: main
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      # Use the latest ZMK main branch so Studio snippets such as
+      # `studio-rpc-usb-uart` are available during builds.
+      revision: main
       import: app/west.yml
   self:
     path: boards
