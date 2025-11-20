@@ -63,7 +63,7 @@
 &kp TAB     &kp B		&kp L		&kp D		&kp C       &kp V	&none	&kp J      &kp Y		&kp O		&kp U		&kp COMMA   &kp MINUS
 &lsft_caps  &mt LGUI N	&mt LALT R	&mt LSHFT T	&mt LCTRL S	&kp G	&none	&kp P      &mt RCTRL H	&mt RSHFT A	&mt RALT E	&mt RGUI I	&kp FSLH
 &kp LCTRL   &kp X		&kp Q		&kp M		&kp W  	    &kp Z	&none	&kp K      &kp F		&kp APOS	&kp SEMI	&kp DOT		&kp BSLH
-&none		&kp PSCRN	&kp LGUI	&kp LALT	&kp SPACE   &mo 2	&none	&mo 1  	   &kp ENTER	&bs_del		&kp RCTRL	&kp RGUI
+&none		&kp PSCRN	&kp LGUI	&kp LALT	&kp SPACE   &mo 2	&none	&tog 1	   &kp ENTER	&bs_del		&kp RCTRL	&kp RGUI
             >;
 
             display-name = "LAYER0";
@@ -71,8 +71,8 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE	&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&none	&kp CARET	&kp AT			&kp STAR    &kp QMARK	&kp TILDE	&kp BSPC
-&trans      &trans		&kp BSPC	&kp UP		&kp DELETE	&trans		&none	&kp BSLH	&kp PIPE		&kp LPAR  	&kp RPAR	&kp EXCL	&kp EQUAL
+&trans		&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&none	&kp CARET	&kp AT			&kp STAR    &kp QMARK	&kp EXCL	&kp EQUAL
+&trans      &trans		&kp BSPC	&kp UP		&kp DELETE	&trans		&none	&kp BSLH	&kp PIPE		&kp LPAR  	&kp RPAR	&kp TILDE	&kp FSLH
 &trans      &kp LC(A)	&kp LEFT	&kp DOWN	&kp RIGHT	&kp PSCRN	&none	&kp HASH	&kp LT			&kp LBKT    &kp RBKT	&kp GT		&kp GRAVE
 &trans      &kp LC(Y)	&kp LC(Z)	&kp LC(X)	&kp LC(C)	&kp LC(V)	&none	&kp DLLR	&kp AMPS		&kp LBRC    &kp RBRC	&kp PLUS	&kp MINUS
 &none		&trans		&trans		&trans		&trans 		&trans		&none	&trans		&trans			&trans      &trans		&trans
@@ -83,7 +83,7 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE		&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&none	&kp KP_NUM	&kp LPAR	&kp RPAR    &kp AT      &kp LT		&kp GT
+&trans			&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&none	&kp KP_NUM	&kp LPAR	&kp RPAR    &kp AT      &kp LT		&kp GT
 &trans			&bt BT_CLR		&bt BT_CLR_ALL	&trans			&trans			&trans			&none	&kp FSLH  	&kp N7  	&kp N8		&kp N9		&kp EXCL	&kp EQUAL
 &rgb_ug RGB_OFF	&rgb_ug RGB_ON	&rgb_ug RGB_EFF	&rgb_ug RGB_EFR	&rgb_ug RGB_SPI	&trans			&none	&kp STAR  	&kp N4  	&kp N5		&kp N6		&kp KP_DOT	&trans
 &soft_off		&sys_reset		&bootloader		&trans			&trans			&trans			&none	&kp N0		&kp N1		&kp N2		&kp N3		&kp PLUS	&kp MINUS
