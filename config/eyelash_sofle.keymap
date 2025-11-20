@@ -83,11 +83,11 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE		&kp F1			&kp F2			&kp F3			&kp F4			&kp F5	&none	&kp F6		&kp F7			&kp F8      &kp F9      &kp F10		&kp DELETE
-&trans			&bt BT_CLR		&bt BT_CLR_ALL	&trans			&trans			&trans	&none	&trans  	&trans  		&trans		&trans		&trans		&kp PLUS
-&rgb_ug RGB_OFF	&rgb_ug RGB_ON	&rgb_ug RGB_EFF	&rgb_ug RGB_EFR	&rgb_ug RGB_SPI	&trans	&none	&trans  	&trans  		&trans		&trans		&trans		&trans
-&soft_off		&sys_reset		&bootloader		&trans			&trans			&trans	&none	&kp LS(N5)	&kp LS(GRAVE)	&kp LBRC	&kp RBRC	&kp LS(N1)	&trans
-&trans			&trans			&trans			&trans			&trans			&trans	&none	&trans		&trans			&trans		&trans		&trans
+&kp GRAVE		&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&none	&kp KP_NUM	&kp LPAR	&kp RPAR    &kp AT      &kp LT		&kp GT
+&trans			&bt BT_CLR		&bt BT_CLR_ALL	&trans			&trans			&trans			&none	&kp FSLH  	&kp N7  	&kp N8		&kp N9		&kp EXCL	&kp EQUAL
+&rgb_ug RGB_OFF	&rgb_ug RGB_ON	&rgb_ug RGB_EFF	&rgb_ug RGB_EFR	&rgb_ug RGB_SPI	&trans			&none	&kp STAR  	&kp N4  	&kp N5		&kp N6		&kp KP_DOT	&trans
+&soft_off		&sys_reset		&bootloader		&trans			&trans			&trans			&none	&kp N0		&kp N1		&kp N2		&kp N3		&kp PLUS	&kp MINUS
+&trans			&trans			&trans			&trans			&trans			&trans			&none	&trans		&trans		&trans		&trans		&trans
             >;
 
             display-name = "layer2";
