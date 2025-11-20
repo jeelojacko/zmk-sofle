@@ -29,14 +29,6 @@
 &soft_off { hold-time-ms = <2000>; };
 
 / {
-    scroll_encoder: scroll_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-        tap-ms = <100>;
-    };
-
     behaviors {
     };
 
@@ -61,7 +53,6 @@
 &none		&kp LGUI	&kp LALT	&kp BSPC	&kp SPACE   &mo 2	&none	&mo 1  	   &kp ENTER  &kp RSHFT	&kp RCTRL	&kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
@@ -75,7 +66,6 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
@@ -88,7 +78,6 @@
             >;
 
             display-name = "layer2";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -101,7 +90,6 @@
             >;
 
             display-name = "layer3";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_4 {
@@ -113,7 +101,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
          display-name = "layer4";
-            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
