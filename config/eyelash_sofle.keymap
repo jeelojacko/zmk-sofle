@@ -69,7 +69,7 @@
             bindings = <
 &kp GRAVE	&kp F1		&kp F2		&kp F3		&kp F4		&kp F5		&none	&kp CARET	&kp AT			&kp STAR    &kp QMARK	&kp TILDE	&kp BSPC
 &trans      &trans		&kp BSPC	&kp UP		&kp DELETE	&trans		&none	&kp BSLH	&kp PIPE		&kp LPAR  	&kp RPAR	&kp EXCL	&kp EQUAL
-&trans      &kp LC(A)	&kp LEFT	&kp DOWN	&kp RIGHT	&kp PRSCRN	&none	&kp HASH	&kp LT			&kp LBKT    &kp RBKT	&kp GT		&kp GRAVE
+&trans      &kp LC(A)	&kp LEFT	&kp DOWN	&kp RIGHT	&kp PSCRN	&none	&kp HASH	&kp LT			&kp LBKT    &kp RBKT	&kp GT		&kp GRAVE
 &trans      &kp LC(Y)	&kp LC(Z)	&kp LC(X)	&kp LC(C)	&kp LC(V)	&none	&kp DLLR	&kp AMPS		&kp LBRC    &kp RBRC	&kp PLUS	&kp MINUS
 &none		&trans		&trans		&trans		&trans 		&trans		&none	&trans		&trans			&trans      &trans		&trans
             >;
