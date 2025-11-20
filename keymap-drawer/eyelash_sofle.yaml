@@ -60,13 +60,13 @@ layers:
   - $$mdi:keyboard-space$$
   - layer2
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - layer1
+  - {t: layer1, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - $$mdi:apple-keyboard-control$$
   - RGUI
   layer1:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -77,8 +77,8 @@ layers:
   - '@'
   - '*'
   - '?'
-  - '~'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '!'
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -90,8 +90,8 @@ layers:
   - '|'
   - (
   - )
-  - '!'
-  - {t: '=', s: +}
+  - '~'
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+A
   - $$mdi:arrow-left-bold$$
@@ -125,13 +125,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer2:
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
