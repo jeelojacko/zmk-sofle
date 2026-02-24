@@ -28,18 +28,18 @@ layers:
   - {t: ',', s: <}
   - {t: '-', s: _}
   - '&lsft_caps'
-  - {t: N, h: LGUI}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - N
+  - R
+  - T
+  - S
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - P
-  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: I, h: RGUI}
-  - {t: /, s: '?'}
+  - H
+  - A
+  - E
+  - I
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - X
   - Q
@@ -52,19 +52,19 @@ layers:
   - {t: '''', s: '"'}
   - {t: ;, s: ':'}
   - {t: ., s: '>'}
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:printer-outline$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - layer2
+  - {t: layer2, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: layer1, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
-  - $$mdi:apple-keyboard-control$$
   - RGUI
+  - $$mdi:apple-keyboard-control$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
